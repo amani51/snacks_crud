@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card-container">
+ 
+<div class="card">
+    <img src="{{snack.img_url}}" alt="{{snack.title}}" width="200px"/>
+    <div class="content">
+    <h3>{{snack.title}}</h3>
+    <h4>Purchaser: {{snack.purchaser}}</h4>
+    <p>Description: {{snack.description}}</p>
+    </div>
+</div>
+{% endblock content %}
+
+
+
